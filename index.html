@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <label for="cityName">Type in a city name: </label>
+    <input id="cityNameInput" name="cityName" required>
+    <button onclick="searchWeather()">Search</button><br>
+
+    <label for="currWeather" id="currWeather">Get Weather for Current Location:</label>
+    <button onclick="getCurrentLocationWeather()">Search</button>
+
+    <div id="city"></div>
+    <div id="temp"></div>
+    <div id="minTemp"></div>
+    <div id="maxTemp"></div>
+    <div id="pressure"></div>
+
+    <script src='main.js'></script>
+</body>
+</html>
